@@ -57,6 +57,9 @@ asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
 asdf install ruby latest
 asdf global ruby latest
 
+# bundlerのインストール
+gem install bundler
+
 # openjdkのインストール
 yes | sudo apt install openjdk-11-jdk
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
