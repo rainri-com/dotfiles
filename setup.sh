@@ -10,7 +10,7 @@
 # bash setup.sh
 
 # linkを実行
-sh link.sh
+bash link.sh
 
 # passwordを要求
 read -sp "password:" password
