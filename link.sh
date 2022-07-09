@@ -9,6 +9,10 @@ for filef in .??*; do
   ln -snfv "$PWD/$file" ~/
 done
 
+if [ ! -d "$HOME/.config" ]; then
+  mkdir "$HOME/.config"
+fi
+
 for dir in config/*; do
   # ディレクトリを作成
   if [ ! -d "$HOME/.$dir" ]; then
