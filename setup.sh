@@ -9,11 +9,11 @@
 # 起動方法
 # bash setup.sh
 
-# linkを実行
-bash link.sh
-
 # passwordを要求
 read -sp "password:" password
+
+# linkを実行
+bash link.sh
 
 # aptのアップデート
 echo "${password}" | sudo -S apt-get update
@@ -51,6 +51,11 @@ yes | sudo apt install libwebkit2gtk-4.0-dev build-essential curl wget libssl-de
 asdf plugin add rust
 asdf install rust latest
 asdf global rust latest
+
+# rubyのインストール
+asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+asdf install ruby latest
+asdf global ruby latest
 
 # openjdkのインストール
 yes | sudo apt install openjdk-11-jdk
