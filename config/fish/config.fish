@@ -36,5 +36,8 @@ set PATH $PATH $JAVA_HOME/bin $ANDROID_HOME/emulator $ANDROID_HOME/tools $ANDROI
 alias react-native-start="yarn start --host 127.0.0.1"
 alias react-native-android="yarn android --variant=debug --deviceId emulator-5554"
 
+# bundle
+alias bundle-install="bundle install --path vendor/bundle"
+
 # workspace
 alias ws='cd ~/workspace'
