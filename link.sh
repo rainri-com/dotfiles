@@ -3,8 +3,8 @@
 # 起動方法
 # bash setup.sh
 
-for filef in .??*; do
-  [ "$f" = ".git" ] && continue
+for file in .??*; do
+  [ "$file" = ".git" ] && continue
   # ファイルのシンボリックリンクを貼る
   ln -snfv "$PWD/$file" ~/
 done
