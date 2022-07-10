@@ -33,3 +33,5 @@ for dir in config/*; do
 done
 
 # vscodeのシンボリックリンクを貼る
+bash vscode-plugin-install.sh
+ln -snfv "$PWD/vscode/settings.json" "$HOME/.vscode-server/data/Machine/settings.json"
