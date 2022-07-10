@@ -3,5 +3,7 @@
   "editor.tabSize": 2,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true
 }
