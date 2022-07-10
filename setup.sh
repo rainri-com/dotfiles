@@ -47,7 +47,7 @@ asdf install yarn latest
 asdf global yarn latest
 
 # rustのインストール
-yes | sudo apt install libwebkit2gtk-4.0-dev build-essential curl wget libssl-dev libgtk-3-dev libayatana-appindicator3-dev librsvg2-dev
+yes | sudo apt install libwebkit2gtk-4.0-dev build-essential curl wget libssl-dev libgtk-3-dev libayatana-appindicator3-dev librsvg2-dev libgtk-3-dev webkit2gtk-4.0 libappindicator3-dev librsvg2-dev patchelf
 asdf plugin add rust
 asdf install rust latest
 asdf global rust latest
