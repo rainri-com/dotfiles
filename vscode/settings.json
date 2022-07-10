@@ -1,0 +1,7 @@
+{
+  "editor.insertSpaces": false,
+  "editor.tabSize": 2,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

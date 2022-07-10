@@ -31,3 +31,5 @@ for dir in config/*; do
     echo $file
   done
 done
+
+# vscodeのシンボリックリンクを貼る
