@@ -38,6 +38,7 @@ alias react-native-android="yarn android --variant=debug --deviceId emulator-555
 
 # bundle
 alias bundle-install="bundle install --path vendor/bundle"
+alias bundle-exec="bundle exec"
 
 # workspace
 alias ws='cd ~/workspace'
